@@ -1,3 +1,7 @@
+body
+{
+  text-align: center;
+}
 #GitLogo
 {
   width: 200px;
@@ -5,4 +9,39 @@
 #GitHubLogo
 {
   width: 300px;
+}
+#Lista
+{
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px;
+}
+#Titulo1
+{
+  font-size: 100px;
+}
+#Titulo2, #Titulo3
+{
+  font-size: 40px;
+  text-align: left;
+}
+.Imagenes
+{
+  width: 40%;
+  float: left;
+  height: 70px;
+  margin: 2em 0;
+  top: 0;
+}
+.Articulo1
+{
+  margin-left: 2em;
+}
+.Info2
+{
+  padding: 40px;
+}
+#P1, #P2
+{
+  text-align: left;
 }
