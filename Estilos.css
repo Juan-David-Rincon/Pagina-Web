@@ -1,6 +1,14 @@
+.Cabecera
+{
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+}
 body
 {
   text-align: center;
+  font-family: 'Baloo Da', cursive;
 }
 #GitLogo
 {
@@ -12,24 +20,29 @@ body
 }
 #Lista
 {
-  display: inline-block;
+  display: block;
   font-size: 30px;
   padding: 10px;
 }
 #Titulo1
 {
   font-size: 100px;
+  padding: 50px;
 }
-#Titulo2, #Titulo3
+#Titulo3, #Titulo4
 {
   font-size: 40px;
   text-align: left;
+}
+#Titulo2
+{
+  font-size: 50px;
 }
 .Imagenes
 {
   width: 40%;
   float: left;
-  height: 110px;
+  height: 170px;
   margin: 2em 0;
   top: 0;
 }
@@ -39,9 +52,17 @@ body
 }
 .Info2
 {
-  padding: 40px;
+  padding: 65px;
 }
 #P1, #P2
 {
   text-align: left;
+}
+a
+{
+  color: inherit;
+}
+#L1
+{
+  text-decoration: none;
 }
