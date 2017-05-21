@@ -4,65 +4,110 @@
   height: 100vh;
   justify-content: center;
   display: flex;
+  background: url(Imagenes/Fondo1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 body
 {
   text-align: center;
   font-family: 'Baloo Da', cursive;
 }
+
 #GitLogo
 {
-  width: 200px;
+  width: 300px;
 }
+
 #GitHubLogo
 {
   width: 300px;
 }
+
 #Lista
 {
   display: block;
   font-size: 30px;
   padding: 10px;
+  color: white;
+  text-transform: uppercase;
 }
+
 #Titulo1
 {
   font-size: 100px;
-  padding: 50px;
+  padding: 80px;
+  color: #D74942;
 }
+
 #Titulo3, #Titulo4
 {
   font-size: 40px;
   text-align: left;
 }
+
 #Titulo2
 {
   font-size: 50px;
 }
+
 .Imagenes
 {
   width: 40%;
   float: left;
-  height: 170px;
+  height: 200px;
   margin: 2em 0;
   top: 0;
 }
+
+.Imagen img
+{
+  width: 280px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  margin: 40px;
+}
+
 .Articulo1
 {
   margin-left: 2em;
 }
-.Info2
+
+.Informacion
 {
   padding: 65px;
+  background-color: #1c1c1d;
+  color: white;
 }
+
 #P1, #P2
 {
   text-align: left;
 }
+
 a
 {
   color: inherit;
+  text-decoration: none;
 }
+#G1:hover, #G2:hover
+{
+  color: purple;
+  text-decoration: underline;
+}
+
 #L1
 {
   text-decoration: none;
+}
+
+.info1, .info2
+{
+  background-color: #2196F3;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 30px;
 }
